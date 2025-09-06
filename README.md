@@ -5,9 +5,9 @@ po instalacji wrzucamy do pliku git i uruchamiamy klonowanie
 ```git clone (link) .dotfiles```  
 
 
----------------------
+---  
 ```ssh-keygen```
----------------------
+---  
 
 
 ```git remote origin```  
