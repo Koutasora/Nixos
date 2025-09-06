@@ -7,7 +7,7 @@ po instalacji wrzucamy do pliku git i uruchamiamy klonowanie
 
 ---  
 ```ssh-keygen```
----  
+
 
 
 ```git remote origin```  
