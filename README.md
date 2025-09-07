@@ -4,11 +4,10 @@ po instalacji wrzucamy do pliku git i uruchamiamy klonowanie
 
 ```git clone (link) .dotfiles```  
 
-
----  
-```ssh-keygen```
+```ssh-keygen```  
 ```cd .ssh```
-
+```ls```
+```cat```  
 
 
 ```git remote origin```  
@@ -17,4 +16,5 @@ po instalacji wrzucamy do pliku git i uruchamiamy klonowanie
 ```git remote github```  
 
 Rebuild  
-```sudo nixos-rebuild switch```
+```sudo nixos-rebuild switch```  <- standardowo przebudowuje system  
+```sudo nixos-rebuild switch --flake .``` <- Ustawia flake z .dotfiles 
